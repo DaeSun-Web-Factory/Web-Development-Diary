@@ -12,6 +12,7 @@ body의 맨 아래 부분에 적용시키면,
 아래 코드를 body 최하단에 넣어라.
 ``` html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="index_script.js"></script>
 ```
 
 ## JS의 용도
