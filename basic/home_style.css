@@ -1,0 +1,45 @@
+*{
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.blackPosition{
+    width: 100%;
+    background-color: hotpink;
+}
+
+.relativePosition{
+    width: 100%;
+    background-color: red;
+    /*현 위치를 기준으로 움직인다.*/
+}
+
+.absolutePosition{
+    width: 100%;
+    background-color: green;
+    /*html 전체 문서를 기준으로 고정된다.*/
+}
+
+.fixedPosition{
+    /*브라우저를 기준으로 고정된다.*/
+    width: 100%;
+    background-color: blue;
+}
+
+.flexible{
+    display: flex;
+}
+
+.flexible > div:first-child{
+    flex: 2;
+}
+
+.flexible > div{
+    flex: 1;
+    background-color: hotpink;
+    border: 1px solid white;
+}
